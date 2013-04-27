@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C94F7F6172C241A00F72176 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C94F7F5172C241A00F72176 /* UIKit.framework */; };
+		1C94F7F8172C241A00F72176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C94F7F7172C241A00F72176 /* Foundation.framework */; };
+		1C94F7FA172C241A00F72176 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C94F7F9172C241A00F72176 /* CoreGraphics.framework */; };
+		1C94F800172C241A00F72176 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F7FE172C241A00F72176 /* InfoPlist.strings */; };
+		1C94F802172C241A00F72176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94F801172C241A00F72176 /* main.m */; };
+		1C94F806172C241A00F72176 /* expocommAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94F805172C241A00F72176 /* expocommAppDelegate.m */; };
+		1C94F808172C241A00F72176 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F807172C241A00F72176 /* Default.png */; };
+		1C94F80A172C241A00F72176 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F809172C241A00F72176 /* Default@2x.png */; };
+		1C94F80C172C241A00F72176 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F80B172C241A00F72176 /* Default-568h@2x.png */; };
+		1C94F80F172C241A00F72176 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F80D172C241A00F72176 /* MainStoryboard.storyboard */; };
+		1C94F812172C241A00F72176 /* expocommFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94F811172C241A00F72176 /* expocommFirstViewController.m */; };
+		1C94F814172C241A00F72176 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F813172C241A00F72176 /* first.png */; };
+		1C94F816172C241A00F72176 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F815172C241A00F72176 /* first@2x.png */; };
+		1C94F819172C241A00F72176 /* expocommSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C94F818172C241A00F72176 /* expocommSecondViewController.m */; };
+		1C94F81B172C241A00F72176 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F81A172C241A00F72176 /* second.png */; };
+		1C94F81D172C241A00F72176 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F81C172C241A00F72176 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C94F7F2172C241A00F72176 /* expocommx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expocommx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C94F7F5172C241A00F72176 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C94F7F7172C241A00F72176 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C94F7F9172C241A00F72176 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C94F7FD172C241A00F72176 /* expocommx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "expocommx-Info.plist"; sourceTree = "<group>"; };
+		1C94F7FF172C241A00F72176 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C94F801172C241A00F72176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C94F803172C241A00F72176 /* expocommx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "expocommx-Prefix.pch"; sourceTree = "<group>"; };
+		1C94F804172C241A00F72176 /* expocommAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = expocommAppDelegate.h; sourceTree = "<group>"; };
+		1C94F805172C241A00F72176 /* expocommAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expocommAppDelegate.m; sourceTree = "<group>"; };
+		1C94F807172C241A00F72176 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1C94F809172C241A00F72176 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1C94F80B172C241A00F72176 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1C94F80E172C241A00F72176 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1C94F810172C241A00F72176 /* expocommFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = expocommFirstViewController.h; sourceTree = "<group>"; };
+		1C94F811172C241A00F72176 /* expocommFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expocommFirstViewController.m; sourceTree = "<group>"; };
+		1C94F813172C241A00F72176 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		1C94F815172C241A00F72176 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		1C94F817172C241A00F72176 /* expocommSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = expocommSecondViewController.h; sourceTree = "<group>"; };
+		1C94F818172C241A00F72176 /* expocommSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expocommSecondViewController.m; sourceTree = "<group>"; };
+		1C94F81A172C241A00F72176 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		1C94F81C172C241A00F72176 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C94F7EF172C241A00F72176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C94F7F6172C241A00F72176 /* UIKit.framework in Frameworks */,
+				1C94F7F8172C241A00F72176 /* Foundation.framework in Frameworks */,
+				1C94F7FA172C241A00F72176 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C94F7E9172C241A00F72176 = {
+			isa = PBXGroup;
+			children = (
+				1C94F7FB172C241A00F72176 /* expocommx */,
+				1C94F7F4172C241A00F72176 /* Frameworks */,
+				1C94F7F3172C241A00F72176 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C94F7F3172C241A00F72176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C94F7F2172C241A00F72176 /* expocommx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C94F7F4172C241A00F72176 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C94F7F5172C241A00F72176 /* UIKit.framework */,
+				1C94F7F7172C241A00F72176 /* Foundation.framework */,
+				1C94F7F9172C241A00F72176 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C94F7FB172C241A00F72176 /* expocommx */ = {
+			isa = PBXGroup;
+			children = (
+				1C94F804172C241A00F72176 /* expocommAppDelegate.h */,
+				1C94F805172C241A00F72176 /* expocommAppDelegate.m */,
+				1C94F80D172C241A00F72176 /* MainStoryboard.storyboard */,
+				1C94F810172C241A00F72176 /* expocommFirstViewController.h */,
+				1C94F811172C241A00F72176 /* expocommFirstViewController.m */,
+				1C94F813172C241A00F72176 /* first.png */,
+				1C94F815172C241A00F72176 /* first@2x.png */,
+				1C94F817172C241A00F72176 /* expocommSecondViewController.h */,
+				1C94F818172C241A00F72176 /* expocommSecondViewController.m */,
+				1C94F81A172C241A00F72176 /* second.png */,
+				1C94F81C172C241A00F72176 /* second@2x.png */,
+				1C94F7FC172C241A00F72176 /* Supporting Files */,
+			);
+			path = expocommx;
+			sourceTree = "<group>";
+		};
+		1C94F7FC172C241A00F72176 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C94F7FD172C241A00F72176 /* expocommx-Info.plist */,
+				1C94F7FE172C241A00F72176 /* InfoPlist.strings */,
+				1C94F801172C241A00F72176 /* main.m */,
+				1C94F803172C241A00F72176 /* expocommx-Prefix.pch */,
+				1C94F807172C241A00F72176 /* Default.png */,
+				1C94F809172C241A00F72176 /* Default@2x.png */,
+				1C94F80B172C241A00F72176 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C94F7F1172C241A00F72176 /* expocommx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C94F820172C241A00F72176 /* Build configuration list for PBXNativeTarget "expocommx" */;
+			buildPhases = (
+				1C94F7EE172C241A00F72176 /* Sources */,
+				1C94F7EF172C241A00F72176 /* Frameworks */,
+				1C94F7F0172C241A00F72176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = expocommx;
+			productName = expocommx;
+			productReference = 1C94F7F2172C241A00F72176 /* expocommx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C94F7EA172C241A00F72176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = expocomm;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Victor Ivanov";
+			};
+			buildConfigurationList = 1C94F7ED172C241A00F72176 /* Build configuration list for PBXProject "expocommx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C94F7E9172C241A00F72176;
+			productRefGroup = 1C94F7F3172C241A00F72176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C94F7F1172C241A00F72176 /* expocommx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C94F7F0172C241A00F72176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C94F800172C241A00F72176 /* InfoPlist.strings in Resources */,
+				1C94F808172C241A00F72176 /* Default.png in Resources */,
+				1C94F80A172C241A00F72176 /* Default@2x.png in Resources */,
+				1C94F80C172C241A00F72176 /* Default-568h@2x.png in Resources */,
+				1C94F80F172C241A00F72176 /* MainStoryboard.storyboard in Resources */,
+				1C94F814172C241A00F72176 /* first.png in Resources */,
+				1C94F816172C241A00F72176 /* first@2x.png in Resources */,
+				1C94F81B172C241A00F72176 /* second.png in Resources */,
+				1C94F81D172C241A00F72176 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C94F7EE172C241A00F72176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C94F802172C241A00F72176 /* main.m in Sources */,
+				1C94F806172C241A00F72176 /* expocommAppDelegate.m in Sources */,
+				1C94F812172C241A00F72176 /* expocommFirstViewController.m in Sources */,
+				1C94F819172C241A00F72176 /* expocommSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C94F7FE172C241A00F72176 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C94F7FF172C241A00F72176 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C94F80D172C241A00F72176 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C94F80E172C241A00F72176 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C94F81E172C241A00F72176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C94F81F172C241A00F72176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C94F821172C241A00F72176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "expocommx/expocommx-Prefix.pch";
+				INFOPLIST_FILE = "expocommx/expocommx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C94F822172C241A00F72176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "expocommx/expocommx-Prefix.pch";
+				INFOPLIST_FILE = "expocommx/expocommx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C94F7ED172C241A00F72176 /* Build configuration list for PBXProject "expocommx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C94F81E172C241A00F72176 /* Debug */,
+				1C94F81F172C241A00F72176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C94F820172C241A00F72176 /* Build configuration list for PBXNativeTarget "expocommx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C94F821172C241A00F72176 /* Debug */,
+				1C94F822172C241A00F72176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C94F7EA172C241A00F72176 /* Project object */;
+}
