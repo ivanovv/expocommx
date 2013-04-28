@@ -14,7 +14,8 @@
 @end
 
 @implementation SolutionsViewController
-
+int rowNumber;
+int secNumber
 NSMutableArray *firstSectionSolutions;
 NSMutableArray *secondSectionSolutions;
 NSMutableArray *thirdSectionSolutions;
@@ -166,6 +167,24 @@ NSMutableArray *listOfItems;
     cell.textLabel.text = desc.title;    
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+     rowNumber = indexPath.row;
+     sectionNumber = indexPath.section;
+ }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if([segue.identifier isEqualToString:@"solutionSeague"])
+    {
+        NSDictionary *dictionary = [listOfItems objectAtIndex:sectionNumber];
+        NSArray *array = [dictionary objectForKey:@"Solutions"];
+        Description *desc = [array objectAtIndex:rowNumber];
+    
+        SolutionViewController *transferViewController = segue.destinationViewController;
+        [transferViewController setDescription: desc];
+    }
 }
 
 @end
