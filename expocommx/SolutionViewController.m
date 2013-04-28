@@ -14,8 +14,9 @@
 @end
 
 @implementation SolutionViewController
-Description *myDescription;
--(void)setDescription:(Description *)description {
-   myDescription = description;
-}
+
+    Description *myDescription;
+    -(void)setDescription:(Description *)description {
+        myDescription = description;
+    }
 @end
