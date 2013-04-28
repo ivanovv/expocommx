@@ -136,6 +136,17 @@ NSMutableArray *listOfItems;
     return [array count];
 }
 
+//RootViewController.m
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    switch(section){
+        case 0:
+            return @"Возведение и эксплуатация социальных и спортивных объектов";
+        case 1:
+            return @"Обеспечение безопасности и координация работ";
+        case 3:
+            return @"Сервисы для участников";
+    }    
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView { 
     return [listOfItems count];
