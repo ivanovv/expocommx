@@ -129,6 +129,10 @@ NSMutableArray *listOfItems;
 }
 
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView { 
+    return [listOfItems count];
+}
+
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [firstSectionSolutions count];
 }
