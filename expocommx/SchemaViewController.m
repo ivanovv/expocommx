@@ -46,4 +46,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+    - (void)scrollViewDidZoom:(UIScrollView *)aScrollView {
+    CGFloat offsetX = (scrollView.bounds.size.width > scrollView.contentSize.width)? 
+                      (scrollView.bounds.size.width - scrollView.contentSize.width) * 0.5 : 0.0;
+    CGFloat offsetY = (scrollView.bounds.size.height > scrollView.contentSize.height)? 
+                      (scrollView.bounds.size.height - scrollView.contentSize.height) * 0.5 : 0.0;
+    mySubView.center = CGPointMake(scrollView.contentSize.width * 0.5 + offsetX, 
+                                   scrollView.contentSize.height * 0.5 + offsetY);
+}
+
 @end
