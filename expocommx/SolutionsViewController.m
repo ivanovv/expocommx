@@ -128,6 +128,14 @@ NSMutableArray *listOfItems;
     // Dispose of any resources that can be recreated.
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+ 
+    //Number of rows it should expect should be based on the section
+    NSDictionary *dictionary = [listOfItems objectAtIndex:section];
+    NSArray *array = [dictionary objectForKey:@"Solutions"];
+    return [array count];
+}
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView { 
     return [listOfItems count];
