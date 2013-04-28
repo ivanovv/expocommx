@@ -26,7 +26,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    [scrollView setBackgroundColor:[UIColor blackColor]];
+    [scrollView setCanCancelContentTouches:NO];
+    scrollView.clipsToBounds = YES; // default is NO, we want to restrict drawing within our scrollview
+    scrollView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
+    demoImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"PDF-icon.png"]];
+    [scrollView addSubview:imageView];
+    [scrollView setContentSize:CGSizeMake(imageView.frame.size.width, imageView.frame.size.height)];
+    scrollView.minimumZoomScale = 1;
+    scrollView.maximumZoomScale = 3;
+    scrollView.delegate = self;
+    [scrollView setScrollEnabled:YES];
 }
 
 - (void)didReceiveMemoryWarning
