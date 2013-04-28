@@ -143,7 +143,7 @@ NSMutableArray *listOfItems;
             return @"Возведение и эксплуатация социальных и спортивных объектов";
         case 1:
             return @"Обеспечение безопасности и координация работ";
-        case 3:
+        case 2:
             return @"Сервисы для участников";
     }    
 }
@@ -152,9 +152,6 @@ NSMutableArray *listOfItems;
     return [listOfItems count];
 }
 
--(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [firstSectionSolutions count];
-}
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView  dequeueReusableCellWithIdentifier:@"SolutionsCell"];
