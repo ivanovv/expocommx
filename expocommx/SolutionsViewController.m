@@ -174,6 +174,7 @@ NSMutableArray *listOfItems;
  {
      rowNumber = indexPath.row;
      sectionNumber = indexPath.section;
+     [self performSegueWithIdentifier:@"solution" sender:self];
  }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
