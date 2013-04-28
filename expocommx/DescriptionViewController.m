@@ -36,7 +36,7 @@
     [_slideshow setTransitionDuration:1]; // Transition duration
     [_slideshow setTransitionType:KASlideShowTransitionSlide]; // Choose a transition type (fade or slide)
     [_slideshow setImagesContentMode:UIViewContentModeScaleAspectFill]; // Choose a content mode for images to display
-    [_slideshow addImagesFromResources:@[@"slideshow_01.png",@"slideshow_02.png",@"slideshow_03.png", @"slideshow_04.png", @"slideshow_05.png"]]; // Add images from resources
+    [_slideshow addImagesFromResources:@[@"slideshow_01.png",@"slideshow_02.png",@"slideshow_03.png", @"slideshow_04.png", @"slideshow_05.png"]];
     [_slideshow start];
 
 }

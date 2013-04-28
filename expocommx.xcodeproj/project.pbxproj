@@ -190,12 +190,7 @@
 				1CB3597D172D8D1E00394B6E /* map2b.png */,
 				1C0863E2172D244A0082194E /* KASlideShow.m */,
 				1CB35908172D2E4D00394B6E /* navbar.png */,
-				1CB35966172D4E1400394B6E /* info.png */,
-				1CB35967172D4E1400394B6E /* info@2x.png */,
-				1CB35968172D4E1400394B6E /* map.png */,
-				1CB35969172D4E1400394B6E /* map@2x.png */,
-				1CB3596A172D4E1500394B6E /* solutions.png */,
-				1CB3596B172D4E1500394B6E /* solutions@2x.png */,
+				1CBC1ED9172DB4300098CC30 /* TabBar Icons */,
 				1CB35909172D2E4D00394B6E /* navbar@2x.png */,
 				1CB35979172D885800394B6E /* SolutionViewController.h */,
 				1CB3597A172D885800394B6E /* SolutionViewController.m */,
@@ -260,6 +255,19 @@
 				1CB35956172D47AA00394B6E /* solutions_15.png */,
 			);
 			name = Solutions;
+			sourceTree = "<group>";
+		};
+		1CBC1ED9172DB4300098CC30 /* TabBar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1CB35966172D4E1400394B6E /* info.png */,
+				1CB35967172D4E1400394B6E /* info@2x.png */,
+				1CB35968172D4E1400394B6E /* map.png */,
+				1CB35969172D4E1400394B6E /* map@2x.png */,
+				1CB3596A172D4E1500394B6E /* solutions.png */,
+				1CB3596B172D4E1500394B6E /* solutions@2x.png */,
+			);
+			name = "TabBar Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

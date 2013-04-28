@@ -168,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="1592" y="1810"/>
         </scene>
-        <!--Solutions View Controller - Решения-->
+        <!--Solutions View Controller-->
         <scene sceneID="13">
             <objects>
-                <viewController title="Решения" id="3" customClass="SolutionsViewController" sceneMemberID="viewController">
+                <viewController id="3" customClass="SolutionsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -210,6 +210,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xcz-1S-ly8"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                     <connections>
                         <segue destination="mf0-nz-YIw" kind="push" identifier="solution" id="nrp-8B-cme"/>
                     </connections>
@@ -239,7 +240,7 @@
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="solutions_01.png" id="6aZ-in-iQY">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                        <rect key="frame" x="0.0" y="2" width="320" height="160"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Система анализа статистических данных" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mps-S7-D3s">

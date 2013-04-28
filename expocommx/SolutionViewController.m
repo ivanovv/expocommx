@@ -18,13 +18,11 @@
 
 @implementation SolutionViewController
 
-    Description *myDescription;
+Description *myDescription;
 
-    -(void)setDescription:(Description *)description {
-        myDescription = description;
-        _label.text = myDescription.title;
-        _textView.text = myDescription.description;
-    }
+-(void)setDescription:(Description *)description {
+    myDescription = description;
+}
 
 
 - (void)viewDidLoad
@@ -33,6 +31,11 @@
 
     _label.text = myDescription.title;
     _textView.text = myDescription.description;
+    NSString *imgName = [NSString stringWithFormat:@"solutions_%02d.png", myDescription.imgNumber];
+    
+    UIImage *image = [UIImage imageNamed:imgName];
+
+    [_imageView setImage:image];
     
     CGRect frame = _textView.frame;
     frame.size.height = _textView.contentSize.height;
@@ -41,7 +44,6 @@
     int contentHeight = _textView.contentSize.height + _imageView.frame.size.height;
     
     _scrollView.contentSize = CGSizeMake(_scrollView.contentSize.width, contentHeight);
-    
 }
 
 @end

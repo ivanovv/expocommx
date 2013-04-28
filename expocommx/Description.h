@@ -13,7 +13,7 @@
 
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *description;
-//@property (nonatomic, assign) int rating;
+@property (nonatomic, assign) int imgNumber;
 
 
 

@@ -13,6 +13,7 @@
 
 @synthesize title;
 @synthesize description;
+@synthesize imgNumber;
 
 
 @end
