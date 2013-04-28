@@ -51,6 +51,8 @@
 		1CB3597B172D885800394B6E /* SolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3597A172D885800394B6E /* SolutionViewController.m */; };
 		1CB3597E172D8D1E00394B6E /* map1b.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3597C172D8D1E00394B6E /* map1b.png */; };
 		1CB3597F172D8D1E00394B6E /* map2b.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3597D172D8D1E00394B6E /* map2b.png */; };
+		1CB35982172D92BF00394B6E /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35981172D92BF00394B6E /* BaseMapViewController.m */; };
+		1CB35985172D938B00394B6E /* Map2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35984172D938B00394B6E /* Map2ViewController.m */; };
 		1CFD86F1172CF70C00B6406D /* slideshow_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD86ED172CF70C00B6406D /* slideshow_02.png */; };
 		1CFD86F2172CF70C00B6406D /* slideshow_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD86EE172CF70C00B6406D /* slideshow_03.png */; };
 		1CFD86F3172CF70C00B6406D /* slideshow_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD86EF172CF70C00B6406D /* slideshow_04.png */; };
@@ -114,6 +116,10 @@
 		1CB3597A172D885800394B6E /* SolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionViewController.m; sourceTree = "<group>"; };
 		1CB3597C172D8D1E00394B6E /* map1b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1b.png; sourceTree = "<group>"; };
 		1CB3597D172D8D1E00394B6E /* map2b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2b.png; sourceTree = "<group>"; };
+		1CB35980172D92BF00394B6E /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		1CB35981172D92BF00394B6E /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		1CB35983172D938B00394B6E /* Map2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map2ViewController.h; sourceTree = "<group>"; };
+		1CB35984172D938B00394B6E /* Map2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map2ViewController.m; sourceTree = "<group>"; };
 		1CFD86ED172CF70C00B6406D /* slideshow_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshow_02.png; sourceTree = "<group>"; };
 		1CFD86EE172CF70C00B6406D /* slideshow_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshow_03.png; sourceTree = "<group>"; };
 		1CFD86EF172CF70C00B6406D /* slideshow_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshow_04.png; sourceTree = "<group>"; };
@@ -168,7 +174,11 @@
 			isa = PBXGroup;
 			children = (
 				1CB35976172D7C1C00394B6E /* Map1ViewController.h */,
+				1CB35980172D92BF00394B6E /* BaseMapViewController.h */,
+				1CB35981172D92BF00394B6E /* BaseMapViewController.m */,
 				1CB35977172D7C1C00394B6E /* Map1ViewController.m */,
+				1CB35983172D938B00394B6E /* Map2ViewController.h */,
+				1CB35984172D938B00394B6E /* Map2ViewController.m */,
 				1CB3590C172D2EB500394B6E /* Slideshow */,
 				1C94F804172C241A00F72176 /* expocommAppDelegate.h */,
 				1C94F805172C241A00F72176 /* expocommAppDelegate.m */,
@@ -361,6 +371,8 @@
 				1C0863E3172D244A0082194E /* KASlideShow.m in Sources */,
 				1CB35978172D7C1C00394B6E /* Map1ViewController.m in Sources */,
 				1CB3597B172D885800394B6E /* SolutionViewController.m in Sources */,
+				1CB35982172D92BF00394B6E /* BaseMapViewController.m in Sources */,
+				1CB35985172D938B00394B6E /* Map2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

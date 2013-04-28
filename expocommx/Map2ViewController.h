@@ -1,5 +1,5 @@
 //
-//  Map1ViewController.h
+//  Map2ViewController.h
 //  expocommx
 //
 //  Created by Victor Ivanov on 4/28/13.
@@ -8,6 +8,6 @@
 
 #import "BaseMapViewController.h"
 
-@interface Map1ViewController : BaseMapViewController
+@interface Map2ViewController : BaseMapViewController
 
 @end
