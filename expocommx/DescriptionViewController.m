@@ -11,6 +11,9 @@
 
 @interface DescriptionViewController ()
     @property (strong,nonatomic) IBOutlet KASlideShow * slideshow;
+    @property (strong,nonatomic) IBOutlet UITextView * textView;
+    @property (strong,nonatomic) IBOutlet UIScrollView * scrollView;
+
 @end
 
 @implementation DescriptionViewController
@@ -22,7 +25,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    //_slideshow = [[KASlideShow alloc] initWithFrame:CGRectMake(0,0,640,750)];
+    CGRect frame = _textView.frame;
+    frame.size.height = _textView.contentSize.height;
+    _textView.frame = frame;
+
+    int contentHeight =_textView.contentSize.height + _slideshow.frame.size.height;
+    
+    _scrollView.contentSize = CGSizeMake(_scrollView.contentSize.width, contentHeight);
+
     [_slideshow setDelay:3]; // Delay between transitions
     [_slideshow setTransitionDuration:1]; // Transition duration
     [_slideshow setTransitionType:KASlideShowTransitionSlide]; // Choose a transition type (fade or slide)
