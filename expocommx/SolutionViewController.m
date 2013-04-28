@@ -13,7 +13,7 @@
     @property (strong,nonatomic) IBOutlet UITextView * textView;
     @property (strong,nonatomic) IBOutlet UILabel * label;
     @property (strong,nonatomic) IBOutlet UIImageView * imageView;
-
+    @property (strong,nonatomic) IBOutlet UIScrollView * scrollView;
 @end
 
 @implementation SolutionViewController
@@ -33,6 +33,15 @@
 
     _label.text = myDescription.title;
     _textView.text = myDescription.description;
+    
+    CGRect frame = _textView.frame;
+    frame.size.height = _textView.contentSize.height;
+    _textView.frame = frame;
+    
+    int contentHeight = _textView.contentSize.height + _imageView.frame.size.height;
+    
+    _scrollView.contentSize = CGSizeMake(_scrollView.contentSize.width, contentHeight);
+    
 }
 
 @end

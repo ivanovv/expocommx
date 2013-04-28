@@ -226,33 +226,40 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="solutions_01.png" id="6aZ-in-iQY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="dV7-GI-xG7">
-                                <rect key="frame" x="20" y="168" width="280" height="378"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Информационно-аналитическая платформа  решает задачи эффективного хранения  и обработки неограниченных объёмов неструктурированных или слабосвязанных данных.  Демонстарция работы через ползовательский интерфейс BI-приложения  от QlickviewКрупное спортивное событие - это всегда огромный поток информации, накапливающихся в сотнях различных информационных систем и приложений. Современные решения анализа больших объемов данных (Big Data) позволяют собирать структурированную и неструктурированную информацию с различных источников, анализировать ее и представлять удобном и наглядном виде. Например, консолидировать информацию по результатам всех футбольних матчей чемпионатов мира годы и  в считанные секунды получить ответ на самый необычный аналитический запрос в графическом виде. Так же технологии Big Data внедряются в крупнейших банках, телеком компаниях для анализа поведения потребителей, формирования эксклюзивных продуктов и услуг.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Система анализа статистических данных" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mps-S7-D3s">
-                                <rect key="frame" x="20" y="101" width="280" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" id="xSk-b0-vNX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="dV7-GI-xG7">
+                                        <rect key="frame" x="0.0" y="160" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <string key="text">Информационно-аналитическая платформа  решает задачи эффективного хранения  и обработки неограниченных объёмов неструктурированных или слабосвязанных данных.  Демонстарция работы через ползовательский интерфейс BI-приложения  от QlickviewКрупное спортивное событие - это всегда огромный поток информации, накапливающихся в сотнях различных информационных систем и приложений. Современные решения анализа больших объемов данных (Big Data) позволяют собирать структурированную и неструктурированную информацию с различных источников, анализировать ее и представлять удобном и наглядном виде. Например, консолидировать информацию по результатам всех футбольних матчей чемпионатов мира годы и  в считанные секунды получить ответ на самый необычный аналитический запрос в графическом виде. Так же технологии Big Data внедряются в крупнейших банках, телеком компаниях для анализа поведения потребителей, формирования эксклюзивных продуктов и услуг.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="solutions_01.png" id="6aZ-in-iQY">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Система анализа статистических данных" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mps-S7-D3s">
+                                        <rect key="frame" x="20" y="93" width="280" height="59"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="guC-ZG-w0U"/>
                     <connections>
-                        <outlet property="imageView" destination="6aZ-in-iQY" id="MOL-Lw-crD"/>
+                        <outlet property="imageView" destination="6aZ-in-iQY" id="sAf-V0-GP4"/>
                         <outlet property="label" destination="Mps-S7-D3s" id="Xcu-Pl-g2y"/>
-                        <outlet property="textView" destination="dV7-GI-xG7" id="Ox2-ie-F4C"/>
+                        <outlet property="scrollView" destination="xSk-b0-vNX" id="fes-U5-I9E"/>
+                        <outlet property="textView" destination="dV7-GI-xG7" id="tbP-6B-Fsa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TRA-mJ-58O" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -333,6 +340,62 @@
         <image name="solutions.png" width="30" height="30"/>
         <image name="solutions_01.png" width="640" height="320"/>
     </resources>
+    <classes>
+        <class className="BaseMapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BaseMapViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="DescriptionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DescriptionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="slideshow" candidateClass="KASlideShow"/>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="KASlideShow" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KASlideShow.h"/>
+            <relationships>
+                <relationship kind="outlet" name="delegate"/>
+            </relationships>
+        </class>
+        <class className="Map1ViewController" superclassName="BaseMapViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Map1ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="Map2ViewController" superclassName="BaseMapViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Map2ViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="SchemaViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SchemaViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="SolutionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SolutionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="label" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
+        <class className="SolutionsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SolutionsViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
