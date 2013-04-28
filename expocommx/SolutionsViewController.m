@@ -156,10 +156,14 @@ NSMutableArray *listOfItems;
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView  dequeueReusableCellWithIdentifier:@"SolutionsCell"];
     
+    
+    NSDictionary *dictionary = [listOfItems objectAtIndex:indexPath.section];
+    NSArray *array = [dictionary objectForKey:@"Solutions"];
+    Description *desc = [array objectAtIndex:indexPath.row];
+    
     cell.textLabel.numberOfLines = 0;
     cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
-    Description *desc = [firstSectionSolutions objectAtIndex:indexPath.row];
-    cell.textLabel.text = desc.title;
+    cell.textLabel.text = desc.title;    
     
     return cell;
 }
