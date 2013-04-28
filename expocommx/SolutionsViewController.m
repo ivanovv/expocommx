@@ -15,11 +15,16 @@
 
 @implementation SolutionsViewController
 
-NSMutableArray *solutions;
+NSMutableArray *firstSectionSolutions;
+NSMutableArray *secondSectionSolutions;
+NSMutableArray *thirdSectionSolutions;
+
+NSMutableArray *listOfItems;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     listOfItems = [[NSMutableArray alloc] init];
     
     firstSectionSolutions = [NSMutableArray arrayWithCapacity:30];
@@ -54,7 +59,7 @@ NSMutableArray *solutions;
     secondSectionSolutions = [NSMutableArray arrayWithCapacity:30];
     description = [[Description alloc] init];
     description.title = @"«Система 112»";
-    description.description = @"Массовое скопление людей во время спортивных мероприятий требует высокой готовности различных экстренных служб. В случае чрезвычайной ситуации "Система 112" обеспечивает скоординированную помощь всех экстренных служб: оператор 112 регистрирует и направляет событие в службы экстренного реагирования, и система выбирает ближайшие службы и их состав в зависимости от характера ЧП. Службы экстренного реагирования получают полное описание происшествия и высылают подготовленные бригады. «Система 112», которая интегрирована с внешними источниками данных, такими, как система «ЭРА ГЛОНАСС», что делает ее по-настоящему эффективной и оперативной.";
+    description.description = @"Массовое скопление людей во время спортивных мероприятий требует высокой готовности различных экстренных служб. В случае чрезвычайной ситуации 'Система 112' обеспечивает скоординированную помощь всех экстренных служб: оператор 112 регистрирует и направляет событие в службы экстренного реагирования, и система выбирает ближайшие службы и их состав в зависимости от характера ЧП. Службы экстренного реагирования получают полное описание происшествия и высылают подготовленные бригады. «Система 112», которая интегрирована с внешними источниками данных, такими, как система «ЭРА ГЛОНАСС», что делает ее по-настоящему эффективной и оперативной.";
     [secondSectionSolutions addObject:description];
     
     description = [[Description alloc] init];
@@ -74,6 +79,7 @@ NSMutableArray *solutions;
     
     //Сервисы для участников
     thirdSectionSolutions = [NSMutableArray arrayWithCapacity:30];
+    
     description = [[Description alloc] init];
     description.title = @"Ncloud";
     description.description = @"Построение и предоставление вычислительной инфраструктуры для информационных систем и бизнес приложений с использованием облачного подхода. Ключевые характеристики: доступность сервисов и приложений через сеть, самообслуживание при заказе и автоматизация развертывания сервисов, управление вычислительными мощностями и учет используемых ресурсов.";
@@ -105,9 +111,9 @@ NSMutableArray *solutions;
     [thirdSectionSolutions addObject:description];
     
     
-    NSDictionary *firstSectionSolutionsDict = [NSDictionary dictionaryWithObject:firstSectionSolutions forKey:@"Countries"];
-    NSDictionary *secondSectionSolutionsDict = [NSDictionary dictionaryWithObject:secondSectionSolutions forKey:@"Countries"]; 
-    NSDictionary *thirdSectionSolutionsDict = [NSDictionary dictionaryWithObject:thirdSectionSolutions forKey:@"Countries"]; 
+    NSDictionary *firstSectionSolutionsDict = [NSDictionary dictionaryWithObject:firstSectionSolutions forKey:@"Solutions"];
+    NSDictionary *secondSectionSolutionsDict = [NSDictionary dictionaryWithObject:secondSectionSolutions forKey:@"Solutions"];
+    NSDictionary *thirdSectionSolutionsDict = [NSDictionary dictionaryWithObject:thirdSectionSolutions forKey:@"Solutions"]; 
     
     [listOfItems addObject:firstSectionSolutionsDict];
     [listOfItems addObject:secondSectionSolutionsDict];
@@ -124,7 +130,7 @@ NSMutableArray *solutions;
 
 
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [solutions count];
+    return [firstSectionSolutions count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -132,7 +138,7 @@ NSMutableArray *solutions;
     
     cell.textLabel.numberOfLines = 0;
     cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
-    Description *desc = [solutions objectAtIndex:indexPath.row];
+    Description *desc = [firstSectionSolutions objectAtIndex:indexPath.row];
     cell.textLabel.text = desc.title;
     
     return cell;
