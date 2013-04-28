@@ -7,6 +7,7 @@
 //
 
 #import "SolutionsViewController.h"
+#import "SolutionViewController.h"
 #import "Description.h"
 
 @interface SolutionsViewController ()
@@ -15,7 +16,7 @@
 
 @implementation SolutionsViewController
 int rowNumber;
-int secNumber
+int sectionNumber;
 NSMutableArray *firstSectionSolutions;
 NSMutableArray *secondSectionSolutions;
 NSMutableArray *thirdSectionSolutions;
@@ -176,7 +177,7 @@ NSMutableArray *listOfItems;
  }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if([segue.identifier isEqualToString:@"solutionSeague"])
+    if([segue.identifier isEqualToString:@"solution"])
     {
         NSDictionary *dictionary = [listOfItems objectAtIndex:sectionNumber];
         NSArray *array = [dictionary objectForKey:@"Solutions"];
@@ -196,7 +197,7 @@ NSMutableArray *listOfItems;
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     // create the parent view that will hold header Label
-	UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 55.0)];
+	UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 55.0)];
 	
 	// create the button object
 	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
@@ -204,21 +205,23 @@ NSMutableArray *listOfItems;
 	headerLabel.opaque = NO;
 	headerLabel.textColor = [UIColor whiteColor];
 	//headerLabel.highlightedTextColor = [UIColor whiteColor];
-	headerLabel.font = [UIFont SystemFontOfSize:20];
-	headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
+	headerLabel.font = [UIFont systemFontOfSize:20];
+    headerLabel.numberOfLines = 0;
+    headerLabel.lineBreakMode = UILineBreakModeWordWrap;
+	headerLabel.frame = CGRectMake(00.0, 0.0, 320.0, 44.0);
 
 	// If you want to align the header text as centered
 	// headerLabel.frame = CGRectMake(150.0, 0.0, 300.0, 44.0);
     
     switch(section){
         case 0:
-            headerLabel.text = @"Возведение и эксплуатация социальных и спортивных объектов";
+            headerLabel.text = @" Возведение и эксплуатация социальных и спортивных объектов";
             break;
         case 1:
-            headerLabel.text = @"Обеспечение безопасности и координация работ";
+            headerLabel.text = @" Обеспечение безопасности и координация работ";
             break;
         case 2:
-            headerLabel.text = @"Сервисы для участников";
+            headerLabel.text = @" Сервисы для участников";
             break;
     }
     

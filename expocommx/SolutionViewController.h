@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Description.h"
 
 @interface SolutionViewController : UIViewController
 //-(void)setDesctiption: *Description description;
--(void)setDescription:(Description *)description;
+-(void)setDescription:(Description*)description;
 @end
