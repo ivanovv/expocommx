@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Добро пожаловать на стадион &quot;NVision Group&quot;!" lineBreakMode="wordWrap" numberOfLines="2" minimumFontSize="10" id="20">
-                                <rect key="frame" x="20" y="215" width="293" height="58"/>
+                                <rect key="frame" x="20" y="225" width="293" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
@@ -23,9 +23,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" id="21">
-                                <rect key="frame" x="8" y="275" width="305" height="137"/>
+                                <rect key="frame" x="8" y="287" width="305" height="205"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <string key="text">В предверии крупных спортивных соревнований "Энвижн Групп" представляет актуальные инфраструктурные и информационные решения на примере стадиона будущего.</string>
+                                <mutableString key="text">В преддверии крупных спортивных соревнований «Энвижн Груп» представляет актуальные инфраструктурные и информационные решения на примере стадиона будущего — места, где безопасность и удобство выходят на первый план. Наша команда расскажет о том, как эффективно управлять крупными объектами социальной значимости, продемонстрирует возможности современных систем энергообеспечения и видео-аналитики, предложит протестировать интерактивные сервисы. Все представленные на стенде технологии имеют широкие сферы применения и дают неоспоримые преимущества для бизнеса и государства.
+\n\nПриглашаем вас посетить выставочный комплекс «Экспоцентр»: Краснопресненская наб., 14. Павильон № 2, зал 2, 22В25. Время работы выставки 14-16 мая с 10:00 до 18:00. 17 мая — с 10:00 до 16:00
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textView>
@@ -41,7 +43,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Описание" image="icon_01.png" id="7"/>
+                    <tabBarItem key="tabBarItem" title="Описание" image="info.png" id="7"/>
                     <connections>
                         <outlet property="slideshow" destination="nVJ-as-5Nk" id="vv3-yD-3zv"/>
                     </connections>
@@ -59,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="3" title="Схема" image="icon_03.png" id="4lk-t9-SRs"/>
+                    <tabBarItem key="tabBarItem" tag="3" title="Схема" image="map.png" id="4lk-t9-SRs"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPi-Py-AOl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -74,28 +76,31 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="jEO-Tk-BHs">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="55" sectionHeaderHeight="22" sectionFooterHeight="22" id="jEO-Tk-BHs">
                                 <rect key="frame" x="0.0" y="5" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SolutionsCell" textLabel="wyj-h3-8I5" style="IBUITableViewCellStyleDefault" id="y72-6s-2SI">
-                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="54"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wyj-h3-8I5">
-                                                    <rect key="frame" x="10" y="0.0" width="280" height="43"/>
+                                                    <rect key="frame" x="10" y="0.0" width="280" height="54"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="mf0-nz-YIw" kind="push" identifier="solution" id="ZGf-7d-hzI"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
@@ -112,6 +117,42 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1179" y="498"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ie4-bB-eX3">
+            <objects>
+                <viewController id="mf0-nz-YIw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v6i-bA-bnr">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="solutions_01.png" id="6aZ-in-iQY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="dV7-GI-xG7">
+                                <rect key="frame" x="20" y="168" width="280" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">Информационно-аналитическая платформа  решает задачи эффективного хранения  и обработки неограниченных объёмов неструктурированных или слабосвязанных данных.  Демонстарция работы через ползовательский интерфейс BI-приложения  от QlickviewКрупное спортивное событие - это всегда огромный поток информации, накапливающихся в сотнях различных информационных систем и приложений. Современные решения анализа больших объемов данных (Big Data) позволяют собирать структурированную и неструктурированную информацию с различных источников, анализировать ее и представлять удобном и наглядном виде. Например, консолидировать информацию по результатам всех футбольних матчей чемпионатов мира годы и  в считанные секунды получить ответ на самый необычный аналитический запрос в графическом виде. Так же технологии Big Data внедряются в крупнейших банках, телеком компаниях для анализа поведения потребителей, формирования эксклюзивных продуктов и услуг.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Система анализа статистических данных" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mps-S7-D3s">
+                                <rect key="frame" x="20" y="101" width="280" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="guC-ZG-w0U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TRA-mJ-58O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1596" y="498"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -138,7 +179,7 @@
         <scene sceneID="ytN-np-XuM">
             <objects>
                 <navigationController id="pis-FH-sKi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Решения" image="icon_02.png" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Решения" image="solutions.png" id="6"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="blackOpaque" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackOpaque" id="8Ad-BS-xvn">
@@ -156,10 +197,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_01.png" width="30" height="30"/>
-        <image name="icon_02.png" width="30" height="30"/>
-        <image name="icon_03.png" width="30" height="30"/>
+        <image name="info.png" width="30" height="30"/>
+        <image name="map.png" width="30" height="30"/>
         <image name="navbar.png" width="320" height="44"/>
+        <image name="solutions.png" width="30" height="30"/>
+        <image name="solutions_01.png" width="640" height="320"/>
     </resources>
     <classes>
         <class className="DescriptionViewController" superclassName="UIViewController">
