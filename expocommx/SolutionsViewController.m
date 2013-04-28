@@ -7,6 +7,7 @@
 //
 
 #import "SolutionsViewController.h"
+#import "Description.h"
 
 @interface SolutionsViewController ()
 
@@ -14,12 +15,57 @@
 
 @implementation SolutionsViewController
 
-NSArray *tableData;
+NSMutableArray *solutions;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    tableData = [NSArray arrayWithObjects: @"Мониторинг строительства объектов",
+    solutions = [NSMutableArray arrayWithCapacity:30];
+    Description *description = [[Description alloc] init];
+    description.title = @"Мониторинг строительства объектов";
+    description.description = @"Для эффективного и своевременного создания объектов в мировой практике активно ипользуются системы моделирования. Связь календарных планов, спектра работа, временной 3D модели с поступающей видеоинформацией с объекта позвоялет ответсвенным лицам следить за ходом строительства объекта.  Специализированное ПО позвляет проводить ретроспективных анализ проведенных работ.";
+    [solutions addObject:description];
+    
+    description = [[Description alloc] init];
+    description.title = @"Контроль и анализ проектных затрат";
+    description.description = @"Контроль и анализ проектных затрат";
+    [solutions addObject:description];
+    
+    description = [[Description alloc] init];
+    description.title = @"Инженерная и телекоммуникационная инфраструктура";
+    description.description = @"Инженерная и телекоммуникационная инфраструктура";
+    [solutions addObject:description];
+    
+    description = [[Description alloc] init];
+    description.title = @"Управление энергозатратами";
+    [solutions addObject:description];
+    
+    
+    description = [[Description alloc] init];
+    description.title = @"Мониторинг грузовой и специальной техники";
+    [solutions addObject:description];
+
+    
+    description = [[Description alloc] init];
+    description.title = @"«Система  112»";
+    [solutions addObject:description];
+
+    
+    description = [[Description alloc] init];
+    description.title = @"Биометрический контроль доступа";
+    [solutions addObject:description];
+    
+    description = [[Description alloc] init];
+    description.title = @"Пространственное моделирование событий";
+    [solutions addObject:description];
+    
+    description = [[Description alloc] init];
+    description.title = @"Управление процессами и персоналом";
+    [solutions addObject:description];
+    
+    
+    
+    /*solutions = [NSMutableArray arrayWithObjects: @"Мониторинг строительства объектов",
                  @"Контроль и анализ проектных затрат",
                  @"Инженерная и телекоммуникационная инфраструктура",
                  @"Управление энергозатратами",
@@ -33,7 +79,7 @@ NSArray *tableData;
                  @"Система анализа статистических данных",
                  @"Сервисы облачной видеоаналитики",
                  @"Удаленный мониторинг автопарка", nil ];
-    
+    */
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar.png"] forBarMetrics:UIBarMetricsDefault];
 }
 
@@ -45,22 +91,16 @@ NSArray *tableData;
 
 
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [tableData count];
+    return [solutions count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *simpleTableIdentifier = @"SimpleTableItem";
-
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: simpleTableIdentifier];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
-    }
+    UITableViewCell *cell = [tableView  dequeueReusableCellWithIdentifier:@"SolutionsCell"];
     
     cell.textLabel.numberOfLines = 0;
-    //cell.textLabel.font
     cell.textLabel.lineBreakMode = UILineBreakModeWordWrap;
-    cell.textLabel.text = [tableData objectAtIndex:indexPath.row];
+    Description *desc = [solutions objectAtIndex:indexPath.row];
+    cell.textLabel.text = desc.title;
     
     return cell;
 }
