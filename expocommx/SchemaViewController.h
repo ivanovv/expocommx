@@ -10,7 +10,7 @@
 
 @interface SchemaViewController : UIViewController<UIScrollViewDelegate>
   
-  @property (nonatomic, retain) IBOutlet UIImageView * ImageView;
+  @property (nonatomic, retain) IBOutlet UIImageView * imageView;
   @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
 
 @end
