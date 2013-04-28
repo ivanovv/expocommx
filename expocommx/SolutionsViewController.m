@@ -187,4 +187,9 @@ NSMutableArray *listOfItems;
     }
 }
 
+- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 55.0;
+}
+
 @end
