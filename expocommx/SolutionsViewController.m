@@ -192,4 +192,39 @@ NSMutableArray *listOfItems;
     return 55.0;
 }
 
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    // create the parent view that will hold header Label
+	UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 55.0)];
+	
+	// create the button object
+	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+	headerLabel.backgroundColor = [UIColor grayColor];
+	headerLabel.opaque = NO;
+	headerLabel.textColor = [UIColor whiteColor];
+	//headerLabel.highlightedTextColor = [UIColor whiteColor];
+	headerLabel.font = [UIFont SystemFontOfSize:20];
+	headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
+
+	// If you want to align the header text as centered
+	// headerLabel.frame = CGRectMake(150.0, 0.0, 300.0, 44.0);
+    
+    switch(section){
+        case 0:
+            headerLabel.text = @"Возведение и эксплуатация социальных и спортивных объектов";
+            break;
+        case 1:
+            headerLabel.text = @"Обеспечение безопасности и координация работ";
+            break;
+        case 2:
+            headerLabel.text = @"Сервисы для участников";
+            break;
+    }
+    
+	[customView addSubview:headerLabel];
+
+	return customView;
+}
+
 @end
