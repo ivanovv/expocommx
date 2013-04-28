@@ -19,9 +19,20 @@
 @implementation SolutionViewController
 
     Description *myDescription;
+
     -(void)setDescription:(Description *)description {
         myDescription = description;
         _label.text = myDescription.title;
         _textView.text = myDescription.description;
     }
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    _label.text = myDescription.title;
+    _textView.text = myDescription.description;
+}
+
 @end

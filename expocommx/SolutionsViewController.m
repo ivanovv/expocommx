@@ -147,7 +147,8 @@ NSMutableArray *listOfItems;
             return @"Обеспечение безопасности и координация работ";
         case 2:
             return @"Сервисы для участников";
-    }    
+    }
+    return @"N/A";
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView { 
