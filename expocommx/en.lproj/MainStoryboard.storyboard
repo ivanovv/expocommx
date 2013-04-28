@@ -89,21 +89,21 @@
             </objects>
             <point key="canvasLocation" x="1179" y="1149"/>
         </scene>
-        <!--View Controller-->
+        <!--Map1 View Controller-->
         <scene sceneID="7bd-mj-TQg">
             <objects>
-                <viewController id="6MF-Ye-TYq" sceneMemberID="viewController">
+                <viewController id="6MF-Ye-TYq" customClass="Map1ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Lph-h4-ola">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="7ug-XB-qr5">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="3" id="7ug-XB-qr5">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="map1.png" id="xdf-fN-nzN">
-                                        <rect key="frame" x="0.0" y="0.0" width="640" height="1078"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="539"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                 </subviews>
                             </scrollView>
@@ -111,6 +111,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="klu-WK-aWu"/>
+                    <connections>
+                        <outlet property="imageView" destination="xdf-fN-nzN" id="ppu-IE-hRT"/>
+                        <outlet property="scrollView" destination="7ug-XB-qr5" id="Ssg-Mf-oiT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pA-Hi-PD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,38 +284,12 @@
     <resources>
         <image name="info.png" width="30" height="30"/>
         <image name="map.png" width="30" height="30"/>
-        <image name="map1.png" width="640" height="1078"/>
-        <image name="map2.png" width="640" height="1079"/>
+        <image name="map1.png" width="640" height="1079"/>
+        <image name="map2.png" width="640" height="1078"/>
         <image name="navbar.png" width="320" height="44"/>
         <image name="solutions.png" width="30" height="30"/>
         <image name="solutions_01.png" width="640" height="320"/>
     </resources>
-    <classes>
-        <class className="DescriptionViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DescriptionViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="slideshow" candidateClass="KASlideShow"/>
-                <relationship kind="outlet" name="textView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="KASlideShow" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/KASlideShow.h"/>
-            <relationships>
-                <relationship kind="outlet" name="delegate"/>
-            </relationships>
-        </class>
-        <class className="SchemaViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SchemaViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
-        </class>
-        <class className="SolutionsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SolutionsViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
