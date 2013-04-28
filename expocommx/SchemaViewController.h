@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SchemaViewController : UIViewController
+@interface SchemaViewController : UIViewController<UIScrollViewDelegate>
 
 @end
