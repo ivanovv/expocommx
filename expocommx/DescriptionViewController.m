@@ -13,6 +13,7 @@
     @property (strong,nonatomic) IBOutlet KASlideShow * slideshow;
     @property (strong,nonatomic) IBOutlet UITextView * textView;
     @property (strong,nonatomic) IBOutlet UIScrollView * scrollView;
+    @property (strong,nonatomic) IBOutlet UILabel * label;
 
 @end
 
@@ -28,7 +29,7 @@
     frame.size.height = _textView.contentSize.height;
     _textView.frame = frame;
 
-    int contentHeight =_textView.contentSize.height + _slideshow.frame.size.height;
+    int contentHeight =_textView.contentSize.height + _slideshow.frame.size.height + _label.frame.size.height;
     
     _scrollView.contentSize = CGSizeMake(_scrollView.contentSize.width, contentHeight);
 

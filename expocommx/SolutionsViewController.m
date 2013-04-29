@@ -9,6 +9,7 @@
 #import "SolutionsViewController.h"
 #import "SolutionViewController.h"
 #import "Description.h"
+#import "CustomCellBackground.h"
 
 @interface SolutionsViewController ()
 
@@ -200,25 +201,24 @@ NSMutableArray *listOfItems;
 }
 
 
+
+
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     // create the parent view that will hold header Label
-	UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 55.0)];
-    customView.backgroundColor = [UIColor grayColor];
+	UIView* customView = [[CustomCellBackground alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 55.0)];
+    //customView.backgroundColor = [UIColor clearColor];
+
 	
 	// create the button object
 	UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-	headerLabel.backgroundColor = [UIColor grayColor];
+	headerLabel.backgroundColor = [UIColor clearColor];
 	headerLabel.opaque = NO;
 	headerLabel.textColor = [UIColor whiteColor];
-	//headerLabel.highlightedTextColor = [UIColor whiteColor];
 	headerLabel.font = [UIFont systemFontOfSize:18];
     headerLabel.numberOfLines = 0;
     headerLabel.lineBreakMode = UILineBreakModeWordWrap;
 	headerLabel.frame = CGRectMake(8.0, 6.0, 310.0, 44.0);
-
-	// If you want to align the header text as centered
-	// headerLabel.frame = CGRectMake(150.0, 0.0, 300.0, 44.0);
     
     switch(section){
         case 0:
@@ -233,8 +233,9 @@ NSMutableArray *listOfItems;
     }
     
 	[customView addSubview:headerLabel];
-
-	return customView;
+    
+	
+    return customView;
 }
 
 @end

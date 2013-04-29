@@ -21,6 +21,7 @@
 		1C94F82D172C62A800F72176 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F82C172C62A800F72176 /* Default.png */; };
 		1C94F82F172C62B400F72176 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F82E172C62B400F72176 /* Default@2x.png */; };
 		1C94F831172C62BE00F72176 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F830172C62BE00F72176 /* Default-568h@2x.png */; };
+		1CA598BB172EDF2000B6F6DC /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */; };
 		1CB3590A172D2E4D00394B6E /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35908172D2E4D00394B6E /* navbar.png */; };
 		1CB3590B172D2E4D00394B6E /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35909172D2E4D00394B6E /* navbar@2x.png */; };
 		1CB35912172D42D100394B6E /* Account card.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35911172D42D100394B6E /* Account card.png */; };
@@ -84,6 +85,8 @@
 		1C94F82C172C62A800F72176 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		1C94F82E172C62B400F72176 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		1C94F830172C62BE00F72176 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CA598B9172EDF2000B6F6DC /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCellBackground.h; path = expocommx/CustomCellBackground.h; sourceTree = "<group>"; };
+		1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCellBackground.m; path = expocommx/CustomCellBackground.m; sourceTree = "<group>"; };
 		1CB35908172D2E4D00394B6E /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		1CB35909172D2E4D00394B6E /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
 		1CB35911172D42D100394B6E /* Account card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Account card.png"; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 		1C94F7E9172C241A00F72176 = {
 			isa = PBXGroup;
 			children = (
+				1CA598B9172EDF2000B6F6DC /* CustomCellBackground.h */,
+				1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */,
 				1C94F7FB172C241A00F72176 /* expocommx */,
 				1C94F7F4172C241A00F72176 /* Frameworks */,
 				1C94F7F3172C241A00F72176 /* Products */,
@@ -381,6 +386,7 @@
 				1CB3597B172D885800394B6E /* SolutionViewController.m in Sources */,
 				1CB35982172D92BF00394B6E /* BaseMapViewController.m in Sources */,
 				1CB35985172D938B00394B6E /* Map2ViewController.m in Sources */,
+				1CA598BB172EDF2000B6F6DC /* CustomCellBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
