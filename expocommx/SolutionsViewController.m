@@ -136,8 +136,6 @@ NSMutableArray *listOfItems;
     [listOfItems addObject:firstSectionSolutionsDict];
     [listOfItems addObject:secondSectionSolutionsDict];
     [listOfItems addObject:thirdSectionSolutionsDict];
-     
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"navbar.png"] forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning

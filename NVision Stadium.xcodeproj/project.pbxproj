@@ -22,6 +22,8 @@
 		1C94F82F172C62B400F72176 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F82E172C62B400F72176 /* Default@2x.png */; };
 		1C94F831172C62BE00F72176 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C94F830172C62BE00F72176 /* Default-568h@2x.png */; };
 		1CA598BB172EDF2000B6F6DC /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */; };
+		1CA598BD172FD1B900B6F6DC /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA598BC172FD1B900B6F6DC /* icon_57x57.png */; };
+		1CA598BF172FD1CF00B6F6DC /* icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA598BE172FD1CF00B6F6DC /* icon_114x114.png */; };
 		1CB3590A172D2E4D00394B6E /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35908172D2E4D00394B6E /* navbar.png */; };
 		1CB3590B172D2E4D00394B6E /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35909172D2E4D00394B6E /* navbar@2x.png */; };
 		1CB35912172D42D100394B6E /* Account card.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35911172D42D100394B6E /* Account card.png */; };
@@ -48,12 +50,10 @@
 		1CB35971172D4E1500394B6E /* solutions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3596B172D4E1500394B6E /* solutions@2x.png */; };
 		1CB35974172D738400394B6E /* map2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35972172D738300394B6E /* map2.png */; };
 		1CB35975172D738400394B6E /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB35973172D738400394B6E /* map1.png */; };
-		1CB35978172D7C1C00394B6E /* Map1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35977172D7C1C00394B6E /* Map1ViewController.m */; };
 		1CB3597B172D885800394B6E /* SolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB3597A172D885800394B6E /* SolutionViewController.m */; };
 		1CB3597E172D8D1E00394B6E /* map1b.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3597C172D8D1E00394B6E /* map1b.png */; };
 		1CB3597F172D8D1E00394B6E /* map2b.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB3597D172D8D1E00394B6E /* map2b.png */; };
 		1CB35982172D92BF00394B6E /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35981172D92BF00394B6E /* BaseMapViewController.m */; };
-		1CB35985172D938B00394B6E /* Map2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB35984172D938B00394B6E /* Map2ViewController.m */; };
 		1CFD86F1172CF70C00B6406D /* slideshow_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD86ED172CF70C00B6406D /* slideshow_02.png */; };
 		1CFD86F2172CF70C00B6406D /* slideshow_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD86EE172CF70C00B6406D /* slideshow_03.png */; };
 		1CFD86F3172CF70C00B6406D /* slideshow_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD86EF172CF70C00B6406D /* slideshow_04.png */; };
@@ -65,14 +65,14 @@
 /* Begin PBXFileReference section */
 		1C0863E1172D244A0082194E /* KASlideShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KASlideShow.h; sourceTree = "<group>"; };
 		1C0863E2172D244A0082194E /* KASlideShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KASlideShow.m; sourceTree = "<group>"; };
-		1C94F7F2172C241A00F72176 /* expocommx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = expocommx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C94F7F2172C241A00F72176 /* NVision Stadium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NVision Stadium.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C94F7F5172C241A00F72176 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1C94F7F7172C241A00F72176 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C94F7F9172C241A00F72176 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1C94F7FD172C241A00F72176 /* expocommx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "expocommx-Info.plist"; sourceTree = "<group>"; };
+		1C94F7FD172C241A00F72176 /* NVision Stadium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NVision Stadium-Info.plist"; sourceTree = "<group>"; };
 		1C94F7FF172C241A00F72176 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C94F801172C241A00F72176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1C94F803172C241A00F72176 /* expocommx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "expocommx-Prefix.pch"; sourceTree = "<group>"; };
+		1C94F803172C241A00F72176 /* NVision Stadium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NVision Stadium-Prefix.pch"; sourceTree = "<group>"; };
 		1C94F804172C241A00F72176 /* expocommAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = expocommAppDelegate.h; sourceTree = "<group>"; };
 		1C94F805172C241A00F72176 /* expocommAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expocommAppDelegate.m; sourceTree = "<group>"; };
 		1C94F80E172C241A00F72176 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -85,8 +85,12 @@
 		1C94F82C172C62A800F72176 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		1C94F82E172C62B400F72176 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		1C94F830172C62BE00F72176 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		1CA598B9172EDF2000B6F6DC /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCellBackground.h; path = expocommx/CustomCellBackground.h; sourceTree = "<group>"; };
-		1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCellBackground.m; path = expocommx/CustomCellBackground.m; sourceTree = "<group>"; };
+		1CA598B9172EDF2000B6F6DC /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		1CA598BC172FD1B900B6F6DC /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		1CA598BE172FD1CF00B6F6DC /* icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114x114.png; sourceTree = "<group>"; };
+		1CA598C0172FFB2500B6F6DC /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1CA598C1172FFB2500B6F6DC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CB35908172D2E4D00394B6E /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
 		1CB35909172D2E4D00394B6E /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
 		1CB35911172D42D100394B6E /* Account card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Account card.png"; sourceTree = "<group>"; };
@@ -113,16 +117,12 @@
 		1CB3596B172D4E1500394B6E /* solutions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "solutions@2x.png"; sourceTree = "<group>"; };
 		1CB35972172D738300394B6E /* map2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2.png; sourceTree = "<group>"; };
 		1CB35973172D738400394B6E /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1.png; sourceTree = "<group>"; };
-		1CB35976172D7C1C00394B6E /* Map1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map1ViewController.h; sourceTree = "<group>"; };
-		1CB35977172D7C1C00394B6E /* Map1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map1ViewController.m; sourceTree = "<group>"; };
 		1CB35979172D885800394B6E /* SolutionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionViewController.h; sourceTree = "<group>"; };
 		1CB3597A172D885800394B6E /* SolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionViewController.m; sourceTree = "<group>"; };
 		1CB3597C172D8D1E00394B6E /* map1b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1b.png; sourceTree = "<group>"; };
 		1CB3597D172D8D1E00394B6E /* map2b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2b.png; sourceTree = "<group>"; };
 		1CB35980172D92BF00394B6E /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
 		1CB35981172D92BF00394B6E /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
-		1CB35983172D938B00394B6E /* Map2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map2ViewController.h; sourceTree = "<group>"; };
-		1CB35984172D938B00394B6E /* Map2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map2ViewController.m; sourceTree = "<group>"; };
 		1CFD86ED172CF70C00B6406D /* slideshow_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshow_02.png; sourceTree = "<group>"; };
 		1CFD86EE172CF70C00B6406D /* slideshow_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshow_03.png; sourceTree = "<group>"; };
 		1CFD86EF172CF70C00B6406D /* slideshow_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideshow_04.png; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 		1C94F7E9172C241A00F72176 = {
 			isa = PBXGroup;
 			children = (
-				1CA598B9172EDF2000B6F6DC /* CustomCellBackground.h */,
-				1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */,
+				1CA598BE172FD1CF00B6F6DC /* icon_114x114.png */,
+				1CA598BC172FD1B900B6F6DC /* icon_57x57.png */,
 				1C94F7FB172C241A00F72176 /* expocommx */,
 				1C94F7F4172C241A00F72176 /* Frameworks */,
 				1C94F7F3172C241A00F72176 /* Products */,
@@ -160,7 +160,7 @@
 		1C94F7F3172C241A00F72176 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C94F7F2172C241A00F72176 /* expocommx.app */,
+				1C94F7F2172C241A00F72176 /* NVision Stadium.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,12 +178,10 @@
 		1C94F7FB172C241A00F72176 /* expocommx */ = {
 			isa = PBXGroup;
 			children = (
-				1CB35976172D7C1C00394B6E /* Map1ViewController.h */,
+				1CA598B9172EDF2000B6F6DC /* CustomCellBackground.h */,
+				1CA598BA172EDF2000B6F6DC /* CustomCellBackground.m */,
 				1CB35980172D92BF00394B6E /* BaseMapViewController.h */,
 				1CB35981172D92BF00394B6E /* BaseMapViewController.m */,
-				1CB35977172D7C1C00394B6E /* Map1ViewController.m */,
-				1CB35983172D938B00394B6E /* Map2ViewController.h */,
-				1CB35984172D938B00394B6E /* Map2ViewController.m */,
 				1CB3590C172D2EB500394B6E /* Slideshow */,
 				1C94F804172C241A00F72176 /* expocommAppDelegate.h */,
 				1C94F805172C241A00F72176 /* expocommAppDelegate.m */,
@@ -217,13 +215,13 @@
 		1C94F7FC172C241A00F72176 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1C94F7FD172C241A00F72176 /* expocommx-Info.plist */,
+				1C94F7FD172C241A00F72176 /* NVision Stadium-Info.plist */,
 				1C94F7FE172C241A00F72176 /* InfoPlist.strings */,
 				1C94F801172C241A00F72176 /* main.m */,
 				1C94F830172C62BE00F72176 /* Default-568h@2x.png */,
 				1C94F82E172C62B400F72176 /* Default@2x.png */,
 				1C94F82C172C62A800F72176 /* Default.png */,
-				1C94F803172C241A00F72176 /* expocommx-Prefix.pch */,
+				1C94F803172C241A00F72176 /* NVision Stadium-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,9 +276,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C94F7F1172C241A00F72176 /* expocommx */ = {
+		1C94F7F1172C241A00F72176 /* NVision Stadium */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C94F820172C241A00F72176 /* Build configuration list for PBXNativeTarget "expocommx" */;
+			buildConfigurationList = 1C94F820172C241A00F72176 /* Build configuration list for PBXNativeTarget "NVision Stadium" */;
 			buildPhases = (
 				1C94F7EE172C241A00F72176 /* Sources */,
 				1C94F7EF172C241A00F72176 /* Frameworks */,
@@ -290,9 +288,9 @@
 			);
 			dependencies = (
 			);
-			name = expocommx;
+			name = "NVision Stadium";
 			productName = expocommx;
-			productReference = 1C94F7F2172C241A00F72176 /* expocommx.app */;
+			productReference = 1C94F7F2172C241A00F72176 /* NVision Stadium.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -305,19 +303,20 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Victor Ivanov";
 			};
-			buildConfigurationList = 1C94F7ED172C241A00F72176 /* Build configuration list for PBXProject "expocommx" */;
+			buildConfigurationList = 1C94F7ED172C241A00F72176 /* Build configuration list for PBXProject "NVision Stadium" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = 1C94F7E9172C241A00F72176;
 			productRefGroup = 1C94F7F3172C241A00F72176 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C94F7F1172C241A00F72176 /* expocommx */,
+				1C94F7F1172C241A00F72176 /* NVision Stadium */,
 			);
 		};
 /* End PBXProject section */
@@ -365,6 +364,8 @@
 				1CB35975172D738400394B6E /* map1.png in Resources */,
 				1CB3597E172D8D1E00394B6E /* map1b.png in Resources */,
 				1CB3597F172D8D1E00394B6E /* map2b.png in Resources */,
+				1CA598BD172FD1B900B6F6DC /* icon_57x57.png in Resources */,
+				1CA598BF172FD1CF00B6F6DC /* icon_114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,10 +383,8 @@
 				1C94F825172C296500F72176 /* SchemaViewController.m in Sources */,
 				1CFD86F9172D105E00B6406D /* Description.m in Sources */,
 				1C0863E3172D244A0082194E /* KASlideShow.m in Sources */,
-				1CB35978172D7C1C00394B6E /* Map1ViewController.m in Sources */,
 				1CB3597B172D885800394B6E /* SolutionViewController.m in Sources */,
 				1CB35982172D92BF00394B6E /* BaseMapViewController.m in Sources */,
-				1CB35985172D938B00394B6E /* Map2ViewController.m in Sources */,
 				1CA598BB172EDF2000B6F6DC /* CustomCellBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +396,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1C94F7FF172C241A00F72176 /* en */,
+				1CA598C1172FFB2500B6F6DC /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -405,6 +405,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1C94F80E172C241A00F72176 /* en */,
+				1CA598C0172FFB2500B6F6DC /* ru */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -472,10 +473,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "expocommx/expocommx-Prefix.pch";
-				INFOPLIST_FILE = "expocommx/expocommx-Info.plist";
+				GCC_PREFIX_HEADER = "expocommx/NVision Stadium-Prefix.pch";
+				INFOPLIST_FILE = "expocommx/NVision Stadium-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NVision Stadium";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -484,10 +485,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "expocommx/expocommx-Prefix.pch";
-				INFOPLIST_FILE = "expocommx/expocommx-Info.plist";
+				GCC_PREFIX_HEADER = "expocommx/NVision Stadium-Prefix.pch";
+				INFOPLIST_FILE = "expocommx/NVision Stadium-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "NVision Stadium";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -495,7 +496,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C94F7ED172C241A00F72176 /* Build configuration list for PBXProject "expocommx" */ = {
+		1C94F7ED172C241A00F72176 /* Build configuration list for PBXProject "NVision Stadium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C94F81E172C241A00F72176 /* Debug */,
@@ -504,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C94F820172C241A00F72176 /* Build configuration list for PBXNativeTarget "expocommx" */ = {
+		1C94F820172C241A00F72176 /* Build configuration list for PBXNativeTarget "NVision Stadium" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C94F821172C241A00F72176 /* Debug */,
