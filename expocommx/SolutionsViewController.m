@@ -213,10 +213,10 @@ NSMutableArray *listOfItems;
 	headerLabel.backgroundColor = [UIColor clearColor];
 	headerLabel.opaque = NO;
 	headerLabel.textColor = [UIColor whiteColor];
-	headerLabel.font = [UIFont systemFontOfSize:18];
+	headerLabel.font = [UIFont systemFontOfSize:16];
     headerLabel.numberOfLines = 0;
     headerLabel.lineBreakMode = UILineBreakModeWordWrap;
-	headerLabel.frame = CGRectMake(8.0, 6.0, 310.0, 44.0);
+	headerLabel.frame = CGRectMake(10.0, 6.0, 300.0, 44.0);
     
     switch(section){
         case 0:

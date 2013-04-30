@@ -23,9 +23,10 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <textView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" id="LSH-wg-SfT" userLabel="_textView">
-                                        <rect key="frame" x="0.0" y="242" width="320" height="100"/>
+                                        <rect key="frame" x="25" y="247" width="270" height="100"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="contentInset" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <string key="text">В преддверии крупных спортивных соревнований «Энвижн Груп» представляет актуальные инфраструктурные и информационные решения на примере стадиона будущего — места, где безопасность и удобство выходят на первый план. Наша команда расскажет о том, как эффективно управлять крупными объектами социальной значимости, продемонстрирует возможности современных систем энергообеспечения и видео-аналитики, предложит протестировать интерактивные сервисы. Все представленные на стенде технологии имеют широкие сферы применения и дают неоспоримые преимущества для бизнеса и государства.
 
 Приглашаем вас посетить выставочный комплекс «Экспоцентр»:
@@ -34,7 +35,7 @@
 Время работы выставки:
 14-16 мая —  с 10:00 до 18:00
 17 мая — с 10:00 до 16:00</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <view contentMode="scaleToFill" id="Voj-vd-DPx" customClass="KASlideShow">
@@ -43,11 +44,11 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     </view>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c6Y-uk-XGL">
-                                        <rect key="frame" x="10" y="181" width="310" height="62"/>
+                                        <rect key="frame" x="25" y="199" width="295" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text">Добро пожаловать на стадион
 «Энвижн Груп»!</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -106,6 +107,24 @@
                                     <segue destination="tJn-I3-PDw" kind="push" id="SmP-0g-A1E"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Этаж 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="29j-67-zss">
+                                <rect key="frame" x="8" y="268" width="305" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Этаж 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CZq-lY-wt8">
+                                <rect key="frame" x="0.0" y="78" width="305" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -191,7 +210,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="2" indentationWidth="10" reuseIdentifier="SolutionsCell" textLabel="wyj-h3-8I5" style="IBUITableViewCellStyleDefault" id="y72-6s-2SI">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="16" reuseIdentifier="SolutionsCell" textLabel="wyj-h3-8I5" style="IBUITableViewCellStyleDefault" id="y72-6s-2SI">
                                         <rect key="frame" x="0.0" y="22" width="320" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -199,9 +218,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wyj-h3-8I5">
-                                                    <rect key="frame" x="30" y="0.0" width="260" height="54"/>
+                                                    <rect key="frame" x="26" y="0.0" width="264" height="54"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
@@ -242,11 +261,12 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="dV7-GI-xG7">
-                                        <rect key="frame" x="0.0" y="160" width="320" height="100"/>
+                                        <rect key="frame" x="25" y="160" width="270" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="contentInset" minX="-6" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <string key="text">Информационно-аналитическая платформа  решает задачи эффективного хранения  и обработки неограниченных объёмов неструктурированных или слабосвязанных данных.  Демонстарция работы через ползовательский интерфейс BI-приложения  от QlickviewКрупное спортивное событие - это всегда огромный поток информации, накапливающихся в сотнях различных информационных систем и приложений. Современные решения анализа больших объемов данных (Big Data) позволяют собирать структурированную и неструктурированную информацию с различных источников, анализировать ее и представлять удобном и наглядном виде. Например, консолидировать информацию по результатам всех футбольних матчей чемпионатов мира годы и  в считанные секунды получить ответ на самый необычный аналитический запрос в графическом виде. Так же технологии Big Data внедряются в крупнейших банках, телеком компаниях для анализа поведения потребителей, формирования эксклюзивных продуктов и услуг.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="solutions_01.png" id="6aZ-in-iQY">
@@ -262,7 +282,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Система анализа статистических данных" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Mps-S7-D3s">
-                                        <rect key="frame" x="10" y="103" width="310" height="59"/>
+                                        <rect key="frame" x="25" y="103" width="295" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

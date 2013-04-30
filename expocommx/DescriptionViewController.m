@@ -29,7 +29,8 @@
     frame.size.height = _textView.contentSize.height;
     _textView.frame = frame;
 
-    int contentHeight =_textView.contentSize.height + _slideshow.frame.size.height + _label.frame.size.height;
+    // int contentHeight =_textView.contentSize.height + _slideshow.frame.size.height + _label.frame.size.height;
+    int contentHeight = _textView.frame.origin.y + _textView.contentSize.height;
     
     _scrollView.contentSize = CGSizeMake(_scrollView.contentSize.width, contentHeight);
 
